@@ -1,0 +1,23 @@
+@import "../../../../../public/assets/scss/bootstrap-variables";
+
+.library-height {
+  height: $library-height;
+}
+
+.library-songs {
+  overflow-y: scroll;
+}
+
+.library-song-card {
+  cursor: pointer;
+}
+
+.library-song-card:hover {
+  background-color: $card-hover-background;
+  border-radius: $card-border-radius;
+}
+
+.library-container {
+  height: 100%;
+  background-color: red;
+}
