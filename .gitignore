@@ -43,3 +43,4 @@ Thumbs.db
 
 # secrets
 environments
+src/environments/environment.production.ts
