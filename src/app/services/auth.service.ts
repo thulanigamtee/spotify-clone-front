@@ -14,7 +14,7 @@ import { State } from './model/state.model';
 import { PathLocationStrategy } from '@angular/common';
 import { User } from './model/user.model';
 import { Location } from '@angular/common';
-import { environment } from '../../environments/environment.production';
+import { environment } from '../../environments/environment';
 import { AuthService as Auth0Service } from '@auth0/auth0-angular';
 
 export type AuthPopupState = 'OPEN' | 'CLOSE';
